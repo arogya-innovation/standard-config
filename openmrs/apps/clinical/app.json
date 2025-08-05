@@ -173,6 +173,19 @@
             "debounceSearch": false,
             "fetchDelay": 2000,
             "serializeSearch": false
-        }
+        },
+        "printPrescriptionFeature": {
+                "printDiagnosis":{
+                    "order": "PRIMARY",
+                    "certainity": "CONFIRMED"
+                },
+                "observationsConcepts": ["WEIGHT"],
+                "providerAttributesForPrint": ["Provider Full Name","Provider Title","Medical Licence Number"],
+                "templateUrl": "/bahmni_config/openmrs/apps/clinical/clinicalPrints/medicationPrint.html",
+                "title": "Apeability",
+                "header": "RECETA",
+                "logo": "/bahmni_config/openmrs/apps/registration/registrationCardLayout/images/logo.png",
+                "autoSelectNotAllowed": false
+            }
     }
 }
