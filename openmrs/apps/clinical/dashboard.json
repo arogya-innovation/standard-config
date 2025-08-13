@@ -324,6 +324,20 @@
                     "showDetailsButton":true
                 }
             },
+	    "clinicalDisplayControl":{
+                "translationKey":"DASHBOARD_TITLE_CLINICAL_DISPLAY_CONTROL_KEY",
+                "type":"ordersControl",
+                "orderType":"Clinical Order",
+                "showDetailsButton":true,
+                "displayOrder":22,
+                "dashboardConfig":{
+                    "conceptNames":[]
+                },
+                "expandedViewConfig":{
+                    "conceptNames":[],
+                    "showDetailsButton":true
+                }
+            },
             "Form 2 Obs To Obs": {
                 "displayType": "Half-Page",
                 "translationKey": "DASHBOARD_TITLE_FORMS2_OBS_TO_OBS_DISPLAY_CONTROL_KEY",

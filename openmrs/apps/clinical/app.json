@@ -86,7 +86,8 @@
         "orderTypeClassMap" :{
             "Lab Samples": ["Test","LabSet","LabTest"],
             "Radiology Orders": ["Radiology","Radiology/Imaging Procedure"],
-            "Procedure Orders": ["Procedure"]
+            "Procedure Orders": ["Procedure"],
+	    "Clinical" : ["Clinical"]
         },
         "otherInvestigationsMap": {
             "Radiology": "Radiology Order",
