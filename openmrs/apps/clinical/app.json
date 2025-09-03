@@ -103,7 +103,7 @@
         "conceptSetUI": {
             "Chief Complaint Data": {
                 "autocomplete":true,
-                "codedConceptName":"Chief Complaint",
+                "codedConceptName":"Chief Complaint Coded",
                 "nonCodedConceptName":"Non-Coded Chief Complaint",
                 "durationRequired": false,
                 "allowAddMore": true
