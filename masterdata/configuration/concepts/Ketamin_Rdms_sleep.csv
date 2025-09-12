@@ -1,0 +1,6 @@
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Short name:en,Description:en,Fully specified name:fr,Short name:fr,Description:fr,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:1000
+1c9064bb-2b0f-44f8-934d-2bc42ef8278e,,,Notes,,,,,,Misc,Text,,,,,,,,,,,
+9bb0795c-4ff0-0305-1990-000000000005,,,Image,,,,,,Image,Complex,ImageUrlHandler,,,,,,,,,,
+b1bfc1b5-b6de-4df9-8b52-a3bda0c62b6a,,,Ketamine Reports,,,,,,Misc,N/A,,,9bb0795c-4ff0-0305-1990-000000000005;1c9064bb-2b0f-44f8-934d-2bc42ef8278e;,,,,,,,,
+158c78bb-e67f-43ec-8776-4ce1a67ccb4d,,,Sleep Study Report,,,,,,Misc,N/A,,,9bb0795c-4ff0-0305-1990-000000000005;1c9064bb-2b0f-44f8-934d-2bc42ef8278e;,,,,,,,,
+07e582c3-2248-4fed-bb06-0614809fa189,,,RTMS Report,,,,,,Misc,N/A,,,9bb0795c-4ff0-0305-1990-000000000005;1c9064bb-2b0f-44f8-934d-2bc42ef8278e;,,,,,,,,
