@@ -22,7 +22,7 @@
         "title": "Radiology Order FulFillment Form",
         "name": "Radiology Results",
         "isObservation": true,
-        "conceptNames": ["Radiology Notes"],
+        "conceptNames": ["Notes"],
         "numberOfVisits": 2,
         "scope": "latest"
       },
