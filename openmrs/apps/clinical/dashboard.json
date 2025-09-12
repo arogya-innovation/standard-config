@@ -337,7 +337,9 @@
                     "conceptNames":[],
                     "showDetailsButton":true
                 }
-            },          
+		   }
+		}
+    },          
     "trends":{  
         "translationKey":"DASHBOARD_TAB_TRENDS_KEY",
         "maxRecentlyViewedPatients":10,
