@@ -25,6 +25,22 @@
         "conceptNames": ["Radiology Notes"],
         "numberOfVisits": 2,
         "scope": "latest"
+      },
+       "sections": {
+        "title": "Lab Order FulFillment Form",
+        "name": "Lab Results",
+        "isObservation": true,
+        "conceptNames": ["Notes"],
+        "numberOfVisits": 2,
+        "scope": "latest"
+      },
+     "sections": {
+        "title": "Procedure Order FulFillment Form",
+        "name": "Procedure Order",
+        "isObservation": true,
+        "conceptNames": ["Notes"],
+        "numberOfVisits": 2,
+        "scope": "latest"
       }
     }
 }
