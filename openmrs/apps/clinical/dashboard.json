@@ -209,6 +209,43 @@
                     }
                 }
             },
+			"patientDocument": {
+        	"type": "historyAndExamination",
+        	"isObservation": true,
+        	"displayType": "Half-Page",
+        	"dashboardConfig": {
+			"showDetailButton": false,
+          		"showGroupDateTime": true,
+          		"isObservationForImages": true,
+          		"persistOrderOfObsDateTime": false,
+         		"conceptNames": [
+           			"Prescription",
+            			"Discharge Summary",
+            			"Radiology Report",
+            			"Referral Documents",
+            			"Patient File",
+            			"Lab Report"
+          			]
+       	     	},
+        	"expandedViewConfig": {
+          	   "showDetailButton": false,
+          	   "showGroupDateTime": true,
+          	   "persistOrderOfObsDateTime": false,
+                   "isObservationForImages": true,
+                   "conceptNames": [
+                       "Prescription",
+                       "Discharge Summary",
+                       "Radiology Report",
+                       "Referral Documents",
+                       "Patient File",
+                       "Lab Report"
+          		],
+          	   "pivotTable": {}
+                   },
+                   "displayOrder": 7,
+                   "title": "Patient Document"
+      		},
+
             "visits":{  
                 "translationKey":"DASHBOARD_TITLE_VISITS_KEY",
                 "type":"visits",
@@ -256,7 +293,31 @@
                     "showDetailsButton":true
                 }
             },
-	    "clinicalDisplayControl":{
+			 "consultationNote":{  
+                "translationKey":"Consultation Notes",
+                "type":"observation",
+                "isObservation":true,
+                "displayOrder":3,
+                "dashboardConfig":{  
+                    "conceptNames":["Consultation Note","Follow up date"],
+                    "displayNameType": "FSN",
+                    "showDetailsButton":true,
+                    "numberOfVisits":2
+                },
+                "expandedViewConfig":{  
+                    "conceptNames":[  
+                       "Consultation Note","Follow up date"],
+                    "numberOfVisits":2,
+                    "scope":"latest",
+                    "showDetailsButton":true,
+                    "displayNameType": "FSN",
+                    "pivotTable":{  
+
+                    }
+                },
+                "hideEmptyDisplayControl": true
+            },
+	    	"clinicalDisplayControl":{
                 "translationKey":"DASHBOARD_TITLE_CLINICAL_DISPLAY_CONTROL_KEY",
                 "type":"ordersControl",
                 "orderType":"Clinical Order",
