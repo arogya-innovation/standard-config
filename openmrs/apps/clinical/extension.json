@@ -67,7 +67,7 @@
     },
     "label": "Active",
     "order": 2,
-    "requiredPrivilege": "app:clinical:Active"
+    "requiredPrivilege": "app:clinical"
   },
  "bahmniClinicalPatientsSearchAllPatients": {
     "id": "bahmni.clinical.patients.search.allPatients",
