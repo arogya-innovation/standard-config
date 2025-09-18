@@ -7,7 +7,7 @@
             "searchHandler": "emrapi.sqlSearch.AllOrder",
             "display": "All",
             
-            "forwardUrl": "../orders/#/patient/{{patientUuid}}/fulfillment",
+            "forwardUrl": "../orders/#/patient/{{patientUuid}}/fulfillment?types=Lab,Procedure,Radiology",
 
 	    "forwardButtonTitle": "View",
             "view": "tabular"
@@ -21,7 +21,7 @@
 	 "extensionPointId": "org.bahmni.patient.search",
 	 "type": "config",
 	 "extensionParams": {
-	  "searchHandler": "emrapi.sqlSearch.activePatients",
+	  "searchHandler": "emrapi.sqlSearch.RadiologyOrder",
 	  "display":"Radiology Orders",
 	   "translationKey": "MODULE_LABEL_RADIOLOGY_ORDERS_KEY",
 	  "forwardUrl" : "../orders/#/patient/{{patientUuid}}/fulfillment/Radiology Order",
@@ -37,7 +37,7 @@
         "extensionPointId": "org.bahmni.patient.search",
         "type": "config",
         "extensionParams": {
-            "searchHandler": "emrapi.sqlSearch.activePatients",
+            "searchHandler": "emrapi.sqlSearch.LabOrder",
             "display": "Lab Order",
             
             "forwardUrl": "../orders/#/patient/{{patientUuid}}/fulfillment/Lab Order",
@@ -53,7 +53,7 @@
         "extensionPointId": "org.bahmni.patient.search",
         "type": "config",
         "extensionParams": {
-            "searchHandler": "emrapi.sqlSearch.activePatients",
+            "searchHandler": "emrapi.sqlSearch.ProcedureOrder",
             "display": "Procedure Order",
             
             "forwardUrl": "../orders/#/patient/{{patientUuid}}/fulfillment/Procedure Order",
