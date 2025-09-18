@@ -53,13 +53,6 @@
                     "labEntry"
                 ]
             },
-            "disposition":{  
-                "translationKey":"DASHBOARD_TITLE_DISPOSITION_KEY",
-                "showDetailsButton":true,
-                "type":"disposition",
-                "numberOfVisits":1,
-                "displayOrder":16
-            },
             "treatments":{  
                 "translationKey":"DASHBOARD_TITLE_TREATMENTS_KEY",
                 "type":"treatment",
@@ -95,12 +88,7 @@
                 "showDetailsButton":true,
                 "displayOrder":6
             },
-            "programs":{  
-                "translationKey":"DASHBOARD_TITLE_PROGRAMS_KEY",
-                "type":"programs",
-                "displayOrder":13
-            },
-            "radiologyOrders":{  
+           "radiologyOrders":{  
                 "orderType":"Radiology Order",
                 "type":"ordersControl",
                 "translationKey":"DASHBOARD_TITLE_RADIOLOGY_ORDERS_KEY",
@@ -112,17 +100,7 @@
                     "numberOfVisits":4
                 }
             },
-            "pacs":{  
-                "orderType":"Radiology Order",
-                "type":"pacsOrders",
-                "translationKey":"DASHBOARD_TITLE_PACS_KEY",
-                "displayOrder":11,
-                "dashboardConfig":{  
-                    "pacsImageUrl":"/oviyam2/oviyam?patientID={{patientID}}&accessionNumber={{orderNumber}}",
-                    "numberOfVisits":4
-                }
-            },
-            "labOrdersDisplayControl":{
+           "labOrdersDisplayControl":{
                 "translationKey":"DASHBOARD_TITLE_LAB_ORDERS_DISPLAY_CONTROL_KEY",
                 "type":"ordersControl",
                 "orderType":"Lab Order",
@@ -136,47 +114,7 @@
                     "showDetailsButton":true
                 }
             },
-            "bacteriologyResults":{  
-                "translationKey":"DASHBOARD_TITLE_BACTERIOLOGY_RESULTS_KEY",
-                "type":"bacteriologyResultsControl",
-                "displayOrder": 20,
-                "scope":"All",
-                "orderType":"",
-                "dashboardConfig":{  
-                    "conceptNames":[  
-                        "BACTERIOLOGY CONCEPT SET"
-                    ]
-                }
-            },
-            "labResults":{  
-                "translationKey":"DASHBOARD_TITLE_LAB_RESULTS_KEY",
-                "type":"labOrders",
-                "displayOrder":5,
-                "dashboardConfig":{  
-                    "title":null,
-                    "numberOfVisits":6,
-                    "showChart":false,
-                    "showTable":true,
-                    "showNormalLabResults": true,
-                    "showCommentsExpanded": true,
-                    "showAccessionNotes": true,
-                    "showDetailsButton":false,
-                    "chartConfig": {
-                        "sortResultColumnsLatestFirst":true,
-                        "groupByPanel":true
-                    }  
-                },
-                "expandedViewConfig":{  
-                    "numberOfVisits":10,
-                    "showChart":true,
-                    "showTable":false,
-                    "chartConfig": {
-                        "sortResultColumnsLatestFirst":true,
-                        "groupByPanel":true
-                    }  
-                }
-            },
-            "basicDetails":{  
+           "basicDetails":{  
                 "translationKey":"DASHBOARD_TITLE_BASIC_DETAILS_KEY",
                 "type":"observation",
                 "isObservation":true,
@@ -280,12 +218,6 @@
                     "maximumNoOfVisits":8,
                     "groupByVisits":true
                 }
-            },
-            "admissionDetails":{  
-                "translationKey":"DASHBOARD_TITLE_ADMISSION_DETAILS_KEY",
-                "type":"admissionDetails",
-                "displayOrder":18,
-                "showDetailsButton":true
             },
             "conditions": {
                 "translationKey":"CONDITION_LIST_DISPLAY_CONTROL_TITLE",
